@@ -1,0 +1,24 @@
+# Xcode
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ios/DerivedData/
+ios/build/
+
+# Firebase
+ios/**/GoogleService-Info.plist
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/routes/__pycache__/
+backend/*.pyc
+backend/users.db
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Backend test images
+backend/*.jpg
+backend/*.png
